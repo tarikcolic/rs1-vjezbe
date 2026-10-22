@@ -1,6 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebApplication1.Storages;
-using WebApplication1.Storages.WebApplication1.Models;
+using WebApplication1.Data;
+using WebApplication1.Models;
+
+
+//– Prvi dio (builder.Services…) kaže koji servisi postoje. Drugi dio (app.Use…, app.Map…) određuje kroz šta prolazi svaki zahtjev: Swagger, HTTPS i kontrolere.
+//– AddSingleton<StudentStorage>(): cijela aplikacija dijeli jedno skladište. Kad biste napisali AddScoped, svaki zahtjev bi dobio novo, prazno skladište: POST bi dodao studenta, a sljedeći GET ga ne bi vidio. Probajte.
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,10 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Jedna instanca za cijelu aplikaciju, inače bi svaki request dobio praznu listu.
-
-// Baza: connection string "Main" iz appsettings.json.
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Main")));
+builder.Services.AddSingleton<StudentStorage>();
 
 var app = builder.Build();
 
