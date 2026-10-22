@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EvidencijaStudenata.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f521b62781b01e3d60a08cff22cdf451ce5c7ef7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cb300b02c2d3c5ea2d0b9acd49f307c433d2bd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EvidencijaStudenata.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EvidencijaStudenata.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

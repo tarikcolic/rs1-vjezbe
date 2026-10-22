@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\evidencijastudenata.api\\evidencijastudenata.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|solutionrelative:evidencijastudenata.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\evidencijastudenata.api\\evidencijastudenata.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|solutionrelative:evidencijastudenata.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\evidencijastudenata.api\\evidencijastudenata.api\\data\\studentstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|solutionrelative:evidencijastudenata.api\\data\\studentstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\evidencijastudenata.api\\evidencijastudenata.api\\dtos\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|solutionrelative:evidencijastudenata.api\\dtos\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\evidencijastudenata.api\\evidencijastudenata.api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACAFF12-E420-ACC7-E57D-F2C721749D2F}|EvidencijaStudenata.API\\EvidencijaStudenata.API.csproj|solutionrelative:evidencijastudenata.api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentStorage.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Data\\StudentStorage.cs",
+              "RelativeDocumentMoniker": "EvidencijaStudenata.API\\Data\\StudentStorage.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Data\\StudentStorage.cs",
+              "RelativeToolTip": "EvidencijaStudenata.API\\Data\\StudentStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T12:21:45.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Dtos\\StudentResponse.cs",
+              "RelativeDocumentMoniker": "EvidencijaStudenata.API\\Dtos\\StudentResponse.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Dtos\\StudentResponse.cs",
+              "RelativeToolTip": "EvidencijaStudenata.API\\Dtos\\StudentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T12:19:28.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "EvidencijaStudenata.API\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Models\\Student.cs",
+              "RelativeToolTip": "EvidencijaStudenata.API\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T12:16:22.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "EvidencijaStudenata.API\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "EvidencijaStudenata.API\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T12:09:50.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Program.cs",
+              "RelativeDocumentMoniker": "EvidencijaStudenata.API\\Program.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\EvidencijaStudenata.API\\EvidencijaStudenata.API\\Program.cs",
+              "RelativeToolTip": "EvidencijaStudenata.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T12:07:45.621Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
