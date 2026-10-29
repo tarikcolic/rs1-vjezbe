@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentUpdateRequest.cs",
-              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentUpdateRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\StudentUpdateRequest.cs",
-              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentUpdateRequest.cs",
-              "RelativeToolTip": "DTOs\\StudentUpdateRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-29T18:29:53.695Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -47,8 +34,7 @@
               "RelativeToolTip": "DTOs\\StudentDodajRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-29T18:07:31.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-29T18:07:31.948Z"
             },
             {
               "$type": "Document",
@@ -58,10 +44,22 @@
               "RelativeDocumentMoniker": "Controllers\\StudentiController.cs",
               "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Controllers\\StudentiController.cs",
               "RelativeToolTip": "Controllers\\StudentiController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwEUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-29T15:12:01.157Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentUpdateRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentUpdateRequest.cs",
+              "RelativeToolTip": "DTOs\\StudentUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T18:29:53.695Z"
             }
           ]
         }
