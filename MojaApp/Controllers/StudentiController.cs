@@ -54,6 +54,23 @@ namespace WebApplication1.Controllers
             return Ok(Mapiraj(student));
         }
 
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> Uredi(int id, StudentUpdateRequest request, CancellationToken ct)
+        {
+            Student? student = await db.Studenti.FirstOrDefaultAsync(x => x.Id == id, ct);
+
+            if (student == null)
+                return NotFound();
+
+            student.Ime = request.Ime;
+            student.Prezime = request.Prezime;
+            student.DatumRodjenja = request.DatumRodjenja;
+
+            await db.SaveChangesAsync(ct);
+            return NoContent();
+        }
+
+
         private static StudentResponse Mapiraj(Student student) => new()
         {
             Id = student.Id,
