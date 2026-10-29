@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client.Extensions.Msal;
+using MojaApp.DTOs;
 using WebApplication1.Data;
 using WebApplication1.Dtos;
 using WebApplication1.Models;
@@ -35,6 +36,22 @@ namespace WebApplication1.Controllers
                 return NotFound();
 
             return Mapiraj(student);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<StudentResponse>> Dodaj(StudentDodajRequest request, CancellationToken ct)
+        {
+            Student student = new Student()
+            {
+                Ime = request.Ime,
+                Prezime = request.Prezime,
+                BrojIndeksa = request.BrojIndeksa,
+                DatumRodjenja = request.DatumRodjenja,
+                DatumKreiranja = DateTime.Now
+            };
+            db.Studenti.Add(student);
+            await db.SaveChangesAsync(ct);
+            return Ok(Mapiraj(student));
         }
 
         private static StudentResponse Mapiraj(Student student) => new()
