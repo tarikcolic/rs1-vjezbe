@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\controllers\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:controllers\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\dtos\\studentdodajrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:dtos\\studentdodajrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\dtos\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:dtos\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentResponse.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentResponse.cs",
+              "RelativeToolTip": "DTOs\\StudentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T18:07:34.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDodajRequest.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentDodajRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\StudentDodajRequest.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentDodajRequest.cs",
+              "RelativeToolTip": "DTOs\\StudentDodajRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T18:07:31.948Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Controllers\\StudentiController.cs",
               "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Controllers\\StudentiController.cs",
               "RelativeToolTip": "Controllers\\StudentiController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-29T15:12:01.157Z",
               "EditorCaption": ""
