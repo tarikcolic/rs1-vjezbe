@@ -26,6 +26,17 @@ namespace WebApplication1.Controllers
             return students.Select(Mapiraj).ToList();
         }
 
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<StudentResponse>> GetById(int id, CancellationToken ct)
+        {
+            var student = await db.Studenti.FindAsync(new object[] { id }, ct);
+
+            if (student == null)
+                return NotFound();
+
+            return Mapiraj(student);
+        }
+
         private static StudentResponse Mapiraj(Student student) => new()
         {
             Id = student.Id,
