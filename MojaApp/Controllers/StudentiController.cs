@@ -70,6 +70,18 @@ namespace WebApplication1.Controllers
             return NoContent();
         }
 
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Obrisi(int id, CancellationToken ct)
+        {
+            Student? student = await db.Studenti.FirstOrDefaultAsync(x => x.Id == id, ct);
+
+            if (student == null)
+                return NotFound();
+
+            db.Studenti.Remove(student);
+            await db.SaveChangesAsync(ct);
+            return NoContent();
+        }
 
         private static StudentResponse Mapiraj(Student student) => new()
         {
