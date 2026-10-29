@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\dtos\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:dtos\\studentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\controllers\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:controllers\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,66 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentResponse.cs",
-              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentResponse.cs",
-              "RelativeDocumentMoniker": "DTOs\\StudentResponse.cs",
-              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentResponse.cs",
-              "RelativeToolTip": "DTOs\\StudentResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-29T15:16:37.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-29T15:15:22.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-29T15:12:54.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "StudentiController.cs",
               "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Controllers\\StudentiController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentiController.cs",
               "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Controllers\\StudentiController.cs",
               "RelativeToolTip": "Controllers\\StudentiController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-29T15:12:01.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-29T15:06:18.491Z",
               "EditorCaption": ""
             }
           ]
