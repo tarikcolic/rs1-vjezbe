@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using MojaApp.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace WebApplication1.Models
 {
@@ -13,5 +14,9 @@ namespace WebApplication1.Models
         public string BrojIndeksa { get; set; } = "";
         public DateOnly? DatumRodjenja { get; set; }
         public DateTime DatumKreiranja { get; set; }
+
+        public int? SmjerId { get; set; } // nullable da se ne bi obrisalo sve iz baze kada migriramo
+        public Smjer? Smjer { get; set; }
+
     }
 }
