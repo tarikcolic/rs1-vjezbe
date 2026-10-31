@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MojaApp.Models;
 using WebApplication1.Models;
 
 namespace WebApplication1.Data
@@ -6,6 +7,7 @@ namespace WebApplication1.Data
     public class AppDbContext(DbContextOptions<AppDbContext> options): DbContext(options)
     {
         public DbSet<Student> Studenti => Set<Student>();
+        public DbSet<Smjer> Smjerovi => Set<Smjer>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -29,6 +31,26 @@ namespace WebApplication1.Data
                     BrojIndeksa = "IB260002",
                     DatumRodjenja = new DateOnly(2001, 2, 2),
                     DatumKreiranja = new DateTime(2026, 10, 29)
+                }
+                );
+
+
+            modelBuilder.Entity<Student>()
+                .HasOne(s=>s.Smjer)
+                .WithMany(sm=> sm.Studenti)
+                .HasForeignKey(s => s.SmjerId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Smjer>().HasData(
+                new Smjer()
+                {
+                    Id = 1,
+                    Naziv = "Softverski inženjering"
+                },
+                new Smjer()
+                {
+                    Id = 2,
+                    Naziv = "Razvoj softvera"
                 }
                 );
         }
