@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\controllers\\smjercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:controllers\\smjercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\controllers\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:controllers\\studenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\dtos\\studentupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:dtos\\studentupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|c:\\users\\taric\\documents\\github\\rs1-vjezbe\\mojaapp\\dtos\\smjerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADE5F1E-75E3-1F5C-6AA9-8A343ED30140}|MojaApp.csproj|solutionrelative:dtos\\smjerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SmjerController.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Controllers\\SmjerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SmjerController.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Controllers\\SmjerController.cs",
+              "RelativeToolTip": "Controllers\\SmjerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T16:30:41.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmjerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\SmjerResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\SmjerResponse.cs",
+              "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\SmjerResponse.cs",
+              "RelativeToolTip": "DTOs\\SmjerResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T16:28:57.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentUpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentUpdateRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\StudentUpdateRequest.cs",
               "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\DTOs\\StudentUpdateRequest.cs",
               "RelativeToolTip": "DTOs\\StudentUpdateRequest.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBAAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-12T13:12:44.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StudentiController.cs",
               "DocumentMoniker": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Controllers\\StudentiController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentiController.cs",
               "ToolTip": "C:\\Users\\taric\\Documents\\GitHub\\rs1-vjezbe\\MojaApp\\Controllers\\StudentiController.cs",
               "RelativeToolTip": "Controllers\\StudentiController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-12T13:12:34.784Z",
               "EditorCaption": ""
