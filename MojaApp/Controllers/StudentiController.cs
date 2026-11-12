@@ -23,8 +23,19 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public async Task<List<StudentResponse>> GetAll(CancellationToken ct)
         {
-            List<Student> students = await db.Studenti.ToListAsync(ct);
-            return students.Select(Mapiraj).ToList();
+            IQueryable<Student> upit = db.Studenti;
+            return await upit.OrderBy(x => x.Prezime).ThenBy(x => x.Ime).Select(x => new StudentResponse
+            {
+                Id = x.Id,
+                ImePrezime = $"{x.Ime} {x.Prezime}",
+                BrojIndeksa = x.BrojIndeksa,
+                DatumRodjenja = x.DatumRodjenja,
+                Smjer = x.Smjer != null ? x.Smjer.Naziv : null
+            }).ToListAsync(ct);
+
+
+            //List<Student> students = await db.Studenti.Include(x=>x.Smjer).ToListAsync(ct);
+            //return students.Select(Mapiraj).ToList();
         }
 
         [HttpGet("{id:int}")]

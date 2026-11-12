@@ -6,6 +6,6 @@ namespace MojaApp.Models
     {
         public int Id { get; set; }
         public string Naziv { get; set; } = "";
-        public List<Student> Studenti { get; set; }
+        public List<Student> Studenti { get; set; } = [];
     }
 }
