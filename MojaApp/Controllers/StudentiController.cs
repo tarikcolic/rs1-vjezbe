@@ -75,18 +75,20 @@ namespace WebApplication1.Controllers
 
             student.Ime = request.Ime;
             student.Prezime = request.Prezime;
-            student.DatumRodjenja = request.DatumRodjenja;
+            student.BrojIndeksa = request.BrojIndeksa;
+            student.DatumRodjenja = request?.DatumRodjenja;
+            student.SmjerId = request?.SmjerId;
 
             await db.SaveChangesAsync(ct);
-            return NoContent();
+            return Ok(Mapiraj(student));
         }
 
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Obrisi(int id, CancellationToken ct)
         {
             Student? student = await db.Studenti.FirstOrDefaultAsync(x => x.Id == id, ct);
-
-            if (student == null)
+            
+            if(student == null)
                 return NotFound();
 
             db.Studenti.Remove(student);
