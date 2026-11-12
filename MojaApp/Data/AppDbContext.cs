@@ -8,6 +8,8 @@ namespace WebApplication1.Data
     {
         public DbSet<Student> Studenti => Set<Student>();
         public DbSet<Smjer> Smjerovi => Set<Smjer>();
+        public DbSet<Predmet> Predmeti => Set<Predmet>();
+        public DbSet<Upis> Upisi => Set<Upis>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,6 +36,12 @@ namespace WebApplication1.Data
                 }
                 );
 
+            modelBuilder.Entity<Predmet>(e =>
+            {
+                e.Property(x => x.Naziv).HasMaxLength(100).IsRequired();
+                e.Property(x => x.Sifra).HasMaxLength(10).IsRequired();
+                e.HasIndex(x => x.Sifra).IsUnique();
+            });
 
             modelBuilder.Entity<Student>()
                 .HasOne(s=>s.Smjer)
@@ -53,6 +61,20 @@ namespace WebApplication1.Data
                     Naziv = "Razvoj softvera"
                 }
                 );
+
+            modelBuilder.Entity<Upis>(e =>
+            {
+                e.HasOne(u => u.Student)
+                .WithMany(s => s.Upisi)
+                .HasForeignKey(s => s.StudentId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+                e.HasOne(u => u.Predmet)
+                .WithMany(s => s.Upisi)
+                .HasForeignKey(s => s.PredmetId)
+                .OnDelete(DeleteBehavior.Restrict);
+            });
+            
         }
     }
 }

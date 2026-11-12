@@ -18,5 +18,7 @@ namespace WebApplication1.Models
         public int? SmjerId { get; set; } // nullable da se ne bi obrisalo sve iz baze kada migriramo
         public Smjer? Smjer { get; set; }
 
+        public List<Upis> Upisi { get; set; } = [];
+
     }
 }
